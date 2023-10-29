@@ -79,7 +79,7 @@ export const AccountHeader = () => {
     {
       key: "4",
       label: "Your saving percentage",
-      children: savingPercentage,
+      children: `${savingPercentage} %`,
       span: 4,
     },
   ];
